@@ -8,4 +8,3 @@ def test_radio(driver):
     radio = RadioCheckboxPage(driver)
     radio.radiobutton()
     radio.weakdaysmark(["monDay", "Tuesday"])
-    time.sleep(5)
